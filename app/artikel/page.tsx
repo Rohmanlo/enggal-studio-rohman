@@ -24,7 +24,7 @@ export default function ProjectPage() {
         <div className="absolute bottom-0 left-0 w-full p-6 sm:p-12 md:p-20">
             <div className="mx-auto max-w-6xl">
                 <h1 className="max-w-4xl text-5xl font-bold leading-tight tracking-tight text-white sm:text-7xl drop-shadow-lg">
-                Modern Minimalist Villa: Blending Nature & Architecture
+                Modern Minimalist Villa: Blending Nature & Architecture qwdweszASAZ
                 </h1>
             </div>
         </div>
