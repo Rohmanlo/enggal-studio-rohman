@@ -18,7 +18,7 @@ export default function Home() {
         onClick={() => window.open("https://forms.gle/bqyT8aNKsYH4E7C56", "_blank")}
         className="fixed bottom-10 right-10 flex items-center gap-2 font-semibold bg-white text-black px-6 py-4 rounded-full text-xl hover:opacity-100 hover:-translate-y-1 hover:scale-105 transition-all duration-300 shadow-lg z-50"
       >
-        Daftar Internship
+        Daftar Internshipn Dong
         <MdCallMade className="text-xl" />
       </motion.button>
 
