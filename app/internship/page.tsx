@@ -18,7 +18,7 @@ export default function Home() {
         onClick={() => window.open("https://forms.gle/bqyT8aNKsYH4E7C56", "_blank")}
         className="fixed bottom-10 right-10 flex items-center gap-2 font-semibold bg-white text-black px-6 py-4 rounded-full text-xl hover:opacity-100 hover:-translate-y-1 hover:scale-105 transition-all duration-300 shadow-lg z-50"
       >
-        Daftar Internshipn Dong
+        Daftar Internshipn
         <MdCallMade className="text-xl" />
       </motion.button>
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="flex items-center gap-2">
           <Link href="/" rel="noopener noreferrer">
             <Image 
-              src="/assetenggal/logoenggalmain3.png" 
+              src="/logoenggal1.png" 
               alt="enggallogo" 
               width={80}  
               height={80} 
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
 
 {/* NAV MENU  */}
-        <nav className="hidden md:flex font-medium gap-8 lg:gap-16 text-sm md:text-lg">
+        <nav className="hidden md:flex font-medium gap-8 lg:gap-18 text-sm md:text-lg">
           {[
             { label: "Portfolio", href: "/portfolio" },
             { label: "Specialists", href: "/specialist" },
@@ -124,13 +124,15 @@ export default function Home() {
               <div className="flex items-center gap-5">
                  {/* Logo Background Abu Terang */}
                  <div className="relative h-20 w-20 overflow-hidden rounded-full bg-gray-100 border border-gray-200 p-2">
-                    <Image 
-                      src="/assetenggal/logoenggalmain3.png"
-                      alt="Enggal Logo"
-                      width={80}
-                      height={80}
-                      className="object-contain"
-                    />
+                    <Link href="/" rel="noopener noreferrer">
+                      <Image 
+                        src="/1.png"  // <-- Ganti jadi ini
+                        alt="enggallogo" 
+                        width={80}  
+                        height={80} 
+                        className="cursor-pointer"
+                      />
+                    </Link>
                  </div>
                  <div>
                    <span className="block text-2xl font-bold leading-tight text-black">
